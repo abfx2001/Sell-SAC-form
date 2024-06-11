@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Satisfação do Cliente</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-6 text-gray-800">Formulário de Satisfação do Cliente</h1>
+        <form action="#" method="post">
+            <div class="mb-4">
+                <label for="nome" class="block text-gray-700 font-bold mb-2">Nome:</label>
+                <input type="text" id="nome" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
+                <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="satisfacao" class="block text-gray-700 font-bold mb-2">Nível de Satisfação:</label>
+                <div class="flex items-center">
+                    <input type="radio" id="satisfacao-1" name="satisfacao" value="1" class="mr-2">
+                    <label for="satisfacao-1" class="mr-4">1</label>
+                    <input type="radio" id="satisfacao-2" name="satisfacao" value="2" class="mr-2">
+                    <label for="satisfacao-2" class="mr-4">2</label>
+                    <input type="radio" id="satisfacao-3" name="satisfacao" value="3" class="mr-2">
+                    <label for="satisfacao-3" class="mr-4">3</label>
+                    <input type="radio" id="satisfacao-4" name="satisfacao" value="4" class="mr-2">
+                    <label for="satisfacao-4" class="mr-4">4</label>
+                    <input type="radio" id="satisfacao-5" name="satisfacao" value="5" class="mr-2">
+                    <label for="satisfacao-5">5</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="comentarios" class="block text-gray-700 font-bold mb-2">Comentários:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
