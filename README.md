@@ -2,4 +2,4 @@
 
 ## Sell adm
 
-Version: V.0.1.0
+Version: V.1.1.0
